@@ -46,6 +46,7 @@ namespace LibSensu.NET.Models
             return;
         }
 
+        // Send objects over RMQ to a listening RabbitMQ host. (If you don't want to use the Sensu Client, JSON definition should be interfaced)
         public static bool SendRmq(string hostname, string username, string password, string vhost, string queue, object jsonmessage)
         {
             // Init factory
