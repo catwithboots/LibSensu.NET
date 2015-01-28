@@ -38,6 +38,7 @@
       <HintPath>..\packages\RabbitMQ.Client.3.4.3\lib\net35\RabbitMQ.Client.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -50,7 +51,6 @@
     <Compile Include="Models\Client.cs" />
     <Compile Include="Models\Metrics.cs" />
     <Compile Include="Models\Ping.cs" />
-    <Compile Include="Models\RabbitMQ.cs" />
     <Compile Include="Models\Stash.cs" />
     <Compile Include="Sensu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
